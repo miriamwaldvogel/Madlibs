@@ -12,13 +12,17 @@ body{
   font-family: "Arial Black", Gadget, sans-serif
 }
 .label{
+  display:inline-block;
+  width: 45%;
+  text-align: center;
+  position: relative;
   font-size: 24px;
   font-family: "Arial Black", Gadget, sans-serif
 }
 .input{
   position: absolute;
-  right: 40%;
-  width: 300px;
+  right: 10%;
+  width: 50%;
   height: 30px;
 }
 #submitdiv{
@@ -28,11 +32,6 @@ body{
   width: 75px;
   height: 50px;
   font-size: 20px;
+  font-family: "Arial Black", Gadget, sans-serif
   text-align: center;
-}
-#labelcontainer{
-  text-align: center;
-  width: 250px;
-  positive: fixed;
-  left: 60px;
 }
